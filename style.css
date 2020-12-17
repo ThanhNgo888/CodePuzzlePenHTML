@@ -1,0 +1,100 @@
+/* @yellow: #efc369;
+@purple: #a494c0;
+@orange: #d7925f;
+@green: #b5bc67;
+@offBlack: #1d1f20;
+@lightBlue: #87cefa; */
+
+/* body section */
+body {
+  font-family: "Courier New";
+  color: #b5bc67;
+  background-color: #1d1f20;
+  font-size: 18px;
+}
+/* heading section */
+h1,
+h2,
+h3 {
+  margin: 10px 0px;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 26px;
+  color: #efc369;
+}
+h3 {
+  font-size: 21px;
+  color: #d7925f;
+}
+/* order list section */
+ol {
+  margin-left: 15px;
+}
+/* a tag section */
+a {
+  color: #87cefa;
+  text-decoration: none;
+}
+a:visited {
+  color: #b5bc67;
+}
+a:hover {
+  color: #d7925f;
+  text-decoration: underline;
+}
+#myLink{
+  background-color: blue;
+}
+
+#purpleButton:visited{
+    color: purple;
+}
+/*  */
+#gif {
+  position: relative;
+  top: -5px;
+  right: -100px;
+}
+/* Button section */
+button {
+  box-sizing: border-box;
+  font-family: "Courier New";
+  font-size: 16px;
+  color: #d7925f;
+  border: 2px solid #d7925f;
+  background-color: #1d1f20;
+  border-radius: 10px;
+  padding: 12px 16px;
+  outline: 0px;
+  display: block;
+  font-weight: bold;
+  margin: 5px;
+  cursor: default;
+}
+button:hover {
+  color: #d7925f;
+  border: 2px solid #d7925f;
+  cursor: pointer;
+  background-color: black;
+}
+button:focus {
+  color: #d7925f;
+  border: 2px solid #d7925f;
+  cursor: default;
+}
+button:active {
+  color: #d7925f;
+  border: 2px solid #d7925f;
+  cursor: default;
+}
+.circle {
+  display: block;
+  background: rgb(17, 138, 122);
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}
