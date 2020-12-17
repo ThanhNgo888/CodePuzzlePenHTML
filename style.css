@@ -108,3 +108,14 @@ button:active {
   left: 220px;
   animation: bounce 0.9s infinite;
 }
+@keyframes bounce{
+  10% {
+    height: 50px;
+    width: 50px;
+  }
+  50%{
+    height: 30px;
+    width: 57px;
+    transform: translateY(240px);
+  }
+}
